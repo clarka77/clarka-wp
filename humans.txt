@@ -1,0 +1,26 @@
+/* TEAM */
+
+Who I am: Clark A
+Site: https://www.clarka.me
+Twitter: @clarka77
+Location: Kansas City, Kansas, USA
+
+/* THANKS */
+
+Exill
+Site: https://exill.tn/
+Dribbble: https://dribbble.com/Exill
+From: Earth
+
+Humans TXT: We Are People, Not Machines
+Email: hello@humanstxt.org
+Site: http://humanstxt.org
+Twitter: @humanstxt
+Location: World Wide Web, Internet
+
+/* SITE */
+
+Last update: 2023/01/06
+Standards: HTML5, CSS3, PHP, javascript.
+Components: WordPress, Bootstrap, Google Fonts, jQuery
+Software: Atom

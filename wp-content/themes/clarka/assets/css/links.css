@@ -1,0 +1,210 @@
+/**
+	Stylesheet for the links Landing Page
+**/
+
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%; }
+  html * {
+    box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding: 0; }
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0; }
+
+@font-face {
+  font-family: 'Poppins-Bold';
+  src: url("../fonts/links/Poppins-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/links/Poppins-Bold.ttf") format("truetype"), url("../fonts/links/Poppins-Bold.woff") format("woff"); }
+@font-face {
+  font-family: 'IBMPlexSans-Regular';
+  src: url("../fonts/links/IBMPlexSans-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/links/IBMPlexSans-Regular.ttf") format("truetype"), url("../fonts/links/IBMPlexSans-Regular.woff") format("woff"); }
+@font-face {
+  font-family: 'IBMPlexSans-Bold';
+  src: url("../fonts/links/IBMPlexSans-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/links/IBMPlexSans-Bold.ttf") format("truetype"), url("../fonts/links/IBMPlexSans-Bold.woff.woff") format("woff"); }
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Poppins-Bold", Helvetica, Arial, sans-serif; }
+
+body {
+  font-family: "IBMPlexSans-Regular", Helvetica, Arial, sans-serif;
+  color: #242A53;
+  font-size: 1rem;
+  line-height: 1.35rem;}
+  body strong {
+    font-family: "IBMPlexSans-Bold", Helvetica, Arial, sans-serif; }
+
+h5, h6 {
+  font-size: 20px; }
+
+p {
+  margin: 0 0 20px 0;
+  line-height: 1.5em; }
+
+.page_wrapper {
+  background-color: white;
+  margin: 0 auto;
+  padding: 40px 90px;
+  max-width: 1440px; }
+  @media (min-width: 0) and (max-width: 768px) {
+    .page_wrapper {
+      padding: 35px 50px; } }
+  @media (min-width: 0) and (max-width: 640px) {
+    .page_wrapper {
+      padding: 25px 25px; } }
+
+.logo {
+  text-align: center;
+  padding: 0 0 5px 0;
+  margin: 0; }
+  .logo img {
+    width: 100px;
+    max-width: 100%;
+    border-radius: 50%; }
+
+.introduction {
+  text-align: center;
+  margin: 0 auto;
+  font-size: 20px;}
+
+/* button code */
+* {
+  box-sizing: border-box;
+}
+.wrapper {
+  max-width: 65rem;
+  width: 100%;
+  margin: .015rem auto;
+  padding: 5rem;
+  text-align: center;
+  background: #fff;
+}
+button {
+  font-size: 2em;
+  background: #3498db;
+  color: #fff;
+  border: 0.25rem solid #3498db;
+  padding: 0.15em 2em;
+  margin: 1rem;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+button:hover {
+  color: #3498db;
+}
+button::after {
+  content: "";
+  background: #ecf0f1;
+  position: absolute;
+  z-index: -1;
+  padding: 0.85em 0.75em;
+  display: block;
+}
+button[class^="slide"]::after {
+  transition: all 0.35s;
+}
+button[class^="slide"]:hover::after {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  transition: all 0.35s;
+}
+button.slide_from_left::after {
+  top: 0;
+  bottom: 0;
+  left: -100%;
+  right: 100%;
+}
+button.slide_from_right::after {
+  top: 0;
+  bottom: 0;
+  left: 100%;
+  right: -100%;
+}
+button.slide_from_top::after {
+  left: 0;
+  right: 0;
+  top: -100%;
+  bottom: 100%;
+}
+button.slide_from_bottom::after {
+  left: 0;
+  right: 0;
+  top: 100%;
+  bottom: -100%;
+}
+button[class^="grow"]::after {
+  transition: all 0.3s ease;
+}
+button[class^="grow"]:hover::after {
+  transition: all 0.3s ease-out;
+}
+button.grow_box::after {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  transform: scale(0, 0);
+}
+button.grow_box:hover::after {
+  transform: scale(1, 1);
+}
+button.grow_ellipse::after {
+  border-radius: 50%;
+  left: -50%;
+  right: -50%;
+  top: -150%;
+  bottom: -150%;
+  line-height: 8.34em;
+  transform: scale(0, 0);
+}
+button.grow_ellipse:hover::after {
+  transform: scale(1, 1);
+}
+button.grow_skew_forward::after {
+  left: -20%;
+  right: -20%;
+  top: 0;
+  bottom: 0;
+  transform: skewX(-45deg) scale(0, 1);
+}
+button.grow_skew_forward:hover::after {
+  transform: skewX(-45deg) scale(1, 1);
+}
+button.grow_skew_backward::after {
+  left: -20%;
+  right: -20%;
+  top: 0;
+  bottom: 0;
+  transform: skewX(45deg) scale(0, 1);
+}
+button.grow_skew_backward:hover::after {
+  transform: skewX(45deg) scale(1, 1);
+}
+button.grow_spin::after {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  transform: scale(0, 0) rotate(-180deg);
+}
+button.grow_spin:hover::after {
+  transform: scale(1, 1) rotate(0deg);
+}
+/* end button code */
+
+.footer {
+  color: red;
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px 0px; }
