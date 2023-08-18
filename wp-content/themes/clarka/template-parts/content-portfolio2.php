@@ -210,7 +210,7 @@
                     <p>This is a website using the WordPress content management system (CMS).  I made my color palette using the 'color-hex' website.  I used google fonts: Roboto Slab as the primary font and Open Sans as the secondary font.  Icons are by 'font-awesome'.  This is a lovely design with plenty of white space, large images, and easy to read typography.</p>
                     <p>This is fast loading website (according to GT Metrix); which is important for SEO as well as (UX) user experience.  The database is cleaned regularly and there is a firewall to protect the website.  Also this is a mobile friendly website (according to the Bing Mobile Friendliness Test Tool).  I am using unmanaged hosting thru RamNode. I’m using an Nginx in front of Apache App Stack thru ServerPilot; and I monitor the server’s performance thru NodeQuery. In addition I am using CloudFlare as a CDN (content delivery network) and a DNS (domain name system) for faster performance globally.</p>
           <h5>The Admin Page is Client Friendly</h5>
-          <p>The standard WordPress admin page has been customized to be client friendly.  The login page (<a href="http://stage1.develop-ment.space/restaurant/wp-login.php" target="_blank">click here</a>) has been customized to include the client's logo.  The admin page has been customized as well to include the client's logo.  The admin page also has information specific for the client in the 'Welcome' panel.</p>
+          <p>The standard WordPress admin page has been customized to be client friendly.  The login page (<a href="http://stage1.develop-ment.space/wp-login.php" target="_blank">click here</a>) has been customized to include the client's logo.  The admin page has been customized as well to include the client's logo.  The admin page also has information specific for the client in the 'Welcome' panel.</p>
           <h5>Make Reservations</h5>
           <p>This website also includes the ability to make reservations.  It has a fully functioning form that can be modified for any client.  Including the ability to restrict certain times, dates, and party sizes.</p>
           <p>Overall this is a great website for any small to medium sized restaurant.</p>
@@ -230,7 +230,7 @@
           <img class="responsive" src="<?php echo get_theme_file_uri(); ?>/assets/images/portfolio/portfolio-2e.jpg" alt="clark's steakhouse screenshots">
           <br>
           <br>
-          <img class="responsive" src="../images/portfolio/portfolio-2f.jpg" alt="clark's steakhouse screenshots">
+          <img class="responsive" src="<?php echo get_theme_file_uri(); ?>/assets/images/portfolio/portfolio-2f.jpg" alt="clark's steakhouse screenshots">
           <br>
           <br>
           <p>

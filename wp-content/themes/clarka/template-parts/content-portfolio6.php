@@ -120,12 +120,6 @@
                 <p>Clark Alford</p>
               </li>
               <li>
-                <span>Curriculum Vitae</span>
-                <p>
-                  <a target="_blank" href="<?php echo site_url(); ?>/clarka.pdf">Download CV</a>
-                </p>
-              </li>
-              <li>
                 <span>Skills</span>
                 <p>WordPress Hosting, VSC, Photoshop, JavaScript, PHP, HTML/CSS, Bootstrap, MySQL, Github, BitBucket</p>
               </li>
